@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Id_NSW]
+      ,[PropertyMedainValue]
+      ,[UpdatedYear]
+      ,[DateKey]
+      ,[SuburbKey]
+      ,[SchoolKey]
+      ,[StationKey]
+      ,[PropertyId]
+  FROM [DWCompetitionTaskNSW].[dbo].[Fact_PropertyValueTable]

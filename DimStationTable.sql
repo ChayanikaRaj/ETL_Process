@@ -1,0 +1,12 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [StationKey]
+      ,[Stop_Id]
+      ,[Station_Suburb]
+      ,[Street_Name]
+      ,[Street_Type]
+      ,[Entrance_Type]
+      ,[Latitude]
+      ,[Longitude]
+      ,[Mode]
+      ,[StateCode]
+  FROM [DWCompetitionTaskNSW].[dbo].[Dim_StationTable]
